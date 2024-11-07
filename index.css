@@ -485,6 +485,8 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__code2 {
+    display: block;
+    float: left;
     height: 3rem;
     margin-left: var(--gutter-normal);
     transition: all .3s;
