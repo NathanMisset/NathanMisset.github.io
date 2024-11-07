@@ -563,8 +563,14 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+
 .about__btn{
-    margin: 2em;
+    margin: 1em;
+}
+@media(min-width: 901px) {
+    .about__btn{
+        margin: 1em;
+    }
 }
 
 /* --------------------------------------- */
