@@ -484,6 +484,12 @@ body:not(.user-is-tabbing) a:focus {
     transition: all .3s;
 }
 
+.work__code2 {
+    height: 3rem;
+    margin-left: var(--gutter-normal);
+    transition: all .3s;
+}
+
 .work__code:hover {
     transform: scale(1.2);
 }
@@ -501,6 +507,9 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(max-width: 900px) {
     .work__code {
+        height: 4rem;
+    }
+    .work__code2 {
         height: 4rem;
     }
 }
